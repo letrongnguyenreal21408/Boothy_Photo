@@ -10,7 +10,7 @@ export const Footer = () => {
         Made with ❤️ by{" //LeTrongNguyenReal"}
         <Button asChild variant={"link"} className="h-auto p-0 text-xl">
           <Link href="https://letrongnguyenreal.vercel.app/" target="_blank">
-            @_briuwu
+            @_Chocolate❤️‍🔥
           </Link>
         </Button>
       </div>
