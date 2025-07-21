@@ -25,7 +25,7 @@ const believeHeart = localFont({
   display: "swap",
 });
 
-const websiteUrl = "https://bubblybooth.vercel.app";
+const websiteUrl = "https://boothyphotocute.vercel.app";
 const imageUrl = "./public/bubblybooth.png";
 
 export const metadata: Metadata = {
