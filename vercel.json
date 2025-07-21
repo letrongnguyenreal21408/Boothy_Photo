@@ -1,0 +1,10 @@
+{
+  "framework": "nextjs",
+  "routes": [
+    {
+      "src": "/upload",
+      "methods": ["GET", "POST"],
+      "dest": "/upload"
+    }
+  ]
+}
