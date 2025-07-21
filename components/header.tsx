@@ -57,7 +57,7 @@ export const Header = () => {
             <Link href="https://www.tiktok.com/@chocolatedz_208?_t=ZS-8yCy6Sd36y9&_r=1" target="_blank">
               <Image src={tiktokLogo} alt="" className="h-5 w-5" />
             </Link>
-            <Link href="https://github.com/letrongnguyenreal21408" target="_blank">
+            <Link href="https://letrongnguyenreal.vercel.app/" target="_blank">
               <Github />
             </Link>
             <Link href="https://letrongnguyenreal.vercel.app/" target="_blank">
