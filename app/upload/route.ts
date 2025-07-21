@@ -8,6 +8,7 @@ export async function POST(request: Request) {
     return new Response("No files uploaded", { status: 400 });
   }
 
+  // Chuyển đổi tất cả các file ảnh thành base64
   const images: string[] = [];
 
   for (const file of files) {
@@ -19,10 +20,12 @@ export async function POST(request: Request) {
     }
   }
 
+  // Redirect đến trang edit và truyền ảnh qua query string
   const params = new URLSearchParams();
   for (const image of images) {
     params.append("images", image);
   }
 
-  redirect(`/edit?${params.toString()}`);
+  // ❗ Quan trọng: phải return redirect()
+  return redirect(`/edit?${params.toString()}`);
 }
